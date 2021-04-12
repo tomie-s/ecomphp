@@ -77,13 +77,13 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 						<!-- Nav Tabs -->
 						<div class="align-center mb-40 mb-xs-30">
 							<ul class="nav nav-tabs tpl-minimal-tabs animate">
-								<li class="active col-md-4">
+								<li class="active col-md-6">
 									<a aria-expanded="true" href="#mini-one" data-toggle="tab">Overview</a>
 								</li>
-								<li class="col-md-4">
+							<!--	<li class="col-md-4">
 									<a aria-expanded="false" href="#mini-two" data-toggle="tab">Product Info</a>
-								</li>
-								<li class="col-md-4">
+								</li>  -->
+								<li class="col-md-6">
 									<a aria-expanded="false" href="#mini-three" data-toggle="tab">Reviews</a>
 								</li>
 							</ul>
@@ -94,7 +94,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 							<div style="" class="tab-pane fade active in" id="mini-one">
 								<p><?php echo $prodr['description']; ?></p>
 							</div>
-							<div style="" class="tab-pane fade" id="mini-two">
+						<!--	<div style="" class="tab-pane fade" id="mini-two">
 								<table class="table tba2">
 									<tbody>
 										<tr>
@@ -127,7 +127,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 										</tr>
 									</tbody>
 								</table>
-							</div>
+							</div> -->
 							<div style="" class="tab-pane fade" id="mini-three">
 								<div class="col-md-12">
 									<h4 class="uppercase space35">3 Reviews for Shaving Knives</h4>
