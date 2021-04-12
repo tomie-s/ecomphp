@@ -214,14 +214,20 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 						<hr>
 						<div class="row">
 							<div id="shop-mason" class="shop-mason-3col">
+
+							<?php 
+							    $relsql = "SELECT * FROM products limit 3";
+							    $relres = mysqli_query($connection, $relsql);
+							    while($relr = mysqli_fetch_assoc($relres)) {
+							 ?>	
 								<div class="sm-item isotope-item">
 									<div class="product">
 										<div class="product-thumb">
-											<img src="images/shop/1.jpg" class="img-responsive" alt="">
+											<img src="admin/<?php echo $relr['thumb']; ?>" class="img-responsive" alt="">
 											<div class="product-overlay">
 												<span>
-												<a href="./shop-single-full.html" class="fa fa-link"></a>
-												<a href="./shop-single-full.html" class="fa fa-shopping-cart"></a>
+												<a href="single.php?id=<?php echo $relr['id']; ?>" class="fa fa-link"></a>
+												<a href="#" class="fa fa-shopping-cart"></a>
 												</span>					
 											</div>
 										</div>
@@ -232,10 +238,11 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 											<span class="fa fa-star act"></span>
 											<span class="fa fa-star act"></span>
 										</div>
-										<h2 class="product-title"><a href="#">Shave Knives</a></h2>
-										<div class="product-price">$79.00<span>$200.00</span></div>
+										<h2 class="product-title"><a href="#"><?php echo $relr['name']; ?></a></h2>
+										<div class="product-price">CAD <?php echo $relr['price']; ?>.00<span></span></div>
 									</div>
 								</div>
+							<?php } ?>	
 							</div>
 						</div>
 					</div>
