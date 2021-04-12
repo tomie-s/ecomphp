@@ -137,7 +137,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 											<div class="comment-meta">
 												<a href="#">John Doe</a>
 												<span>
-												<em>Feb 17, 2015, at 11:34</em>
+												<em>Feb 17, 2019, at 11:34</em>
 												</span>
 											</div>
 											<div class="rating2">
@@ -152,7 +152,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 											<div class="comment-meta">
 												<a href="#">Rebecca</a>
 												<span>
-												<em>March 08, 2015, at 03:34</em>
+												<em>March 08, 2020, at 03:34</em>
 												</span>
 											</div>
 											<div class="rating2">
@@ -167,7 +167,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 											<div class="comment-meta">
 												<a href="#">Antony Doe</a>
 												<span>
-												<em>June 11, 2015, at 07:34</em>
+												<em>June 11, 2020, at 07:34</em>
 												</span>
 											</div>
 											<div class="rating2">
