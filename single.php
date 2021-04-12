@@ -216,7 +216,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 							<div id="shop-mason" class="shop-mason-3col">
 
 							<?php 
-							    $relsql = "SELECT * FROM products limit 3";
+							    $relsql = "SELECT * FROM products WHERE id !=$id ORDER BY rand() LIMIT 3";
 							    $relres = mysqli_query($connection, $relsql);
 							    while($relr = mysqli_fetch_assoc($relres)) {
 							 ?>	
