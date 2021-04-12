@@ -92,7 +92,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 						<!-- Tab panes -->
 						<div style="height: auto;" class="tab-content tpl-minimal-tabs-cont align-center section-text">
 							<div style="" class="tab-pane fade active in" id="mini-one">
-								<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+								<p><?php echo $prodr['description']; ?></p>
 								<table class="table tba2">
 									<tbody>
 										<tr>
