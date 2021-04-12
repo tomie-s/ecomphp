@@ -93,22 +93,6 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 						<div style="height: auto;" class="tab-content tpl-minimal-tabs-cont align-center section-text">
 							<div style="" class="tab-pane fade active in" id="mini-one">
 								<p><?php echo $prodr['description']; ?></p>
-								<table class="table tba2">
-									<tbody>
-										<tr>
-											<td>Sizes</td>
-											<td>M, L, XL, XXL</td>
-										</tr>
-										<tr>
-											<td>Prodused in</td>
-											<td>USA</td>
-										</tr>
-										<tr>
-											<td>Material</td>
-											<td>plastic, textile</td>
-										</tr>
-									</tbody>
-								</table>
 							</div>
 							<div style="" class="tab-pane fade" id="mini-two">
 								<table class="table tba2">
