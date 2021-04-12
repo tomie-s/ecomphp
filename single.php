@@ -130,7 +130,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 							</div> -->
 							<div style="" class="tab-pane fade" id="mini-three">
 								<div class="col-md-12">
-									<h4 class="uppercase space35">3 Reviews for Shaving Knives</h4>
+									<h4 class="uppercase space35">Reviews for This Product</h4>
 									<ul class="comment-list">
 										<li>
 											<a class="pull-left" href="#"><img class="comment-avatar" src="images/quote/1.jpg" alt="" height="50" width="50"></a>
@@ -213,7 +213,7 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 						<h4 class="heading">Related Products</h4>
 						<hr>
 						<div class="row">
-													<div id="shop-mason" class="shop-mason-3col">
+							<div id="shop-mason" class="shop-mason-3col">
 								<div class="sm-item isotope-item">
 									<div class="product">
 										<div class="product-thumb">
@@ -236,55 +236,8 @@ if(isset($_GET['id']) & !empty($_GET['id'])){
 										<div class="product-price">$79.00<span>$200.00</span></div>
 									</div>
 								</div>
-								<div class="sm-item isotope-item">
-									<div class="product">
-										<div class="product-thumb">
-											<img src="images/shop/2.jpg" class="img-responsive" alt="">
-											<div class="product-overlay">
-												<span>
-												<a href="./shop-single-full.html" class="fa fa-link"></a>
-												<a href="./shop-single-full.html" class="fa fa-shopping-cart"></a>
-												</span>					
-											</div>
-										</div>
-										<div class="rating">
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star"></span>
-										</div>
-										<h2 class="product-title"><a href="#">Comb Scissors</a></h2>
-										<div class="product-price">$79.00<span>$200.00</span></div>
-									</div>
-								</div>
-								<div class="sm-item isotope-item">
-									<div class="product">
-										<div class="product-thumb">
-											<img src="images/shop/3.jpg" class="img-responsive" alt="">
-											<div class="product-overlay">
-												<span>
-												<a href="./shop-single-full.html" class="fa fa-link"></a>
-												<a href="./shop-single-full.html" class="fa fa-shopping-cart"></a>
-												</span>					
-											</div>
-										</div>
-										<div class="rating">
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-											<span class="fa fa-star act"></span>
-										</div>
-										<h2 class="product-title"><a href="#">Water Spray</a></h2>
-										<div class="product-price">$79.00<span>$200.00</span></div>
-									</div>
-								</div>
 							</div>
-					
 						</div>
-					</div>
-					
 					</div>
 				</div>
 			</div>
